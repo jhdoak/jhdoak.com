@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+/*  outline: 1px black solid;*/
+}
+
+html, body {
+  margin: 0;
+}
+
+
+/*********************
+**** MAIN STYLING ****
+*********************/
+
+main {
+  height: 100vh;
+/*  background-color: lightgray;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: darkslategray;
+  background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
+  position: relative;
+}
+
+#main-landing {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+/*  background-color: lightgray;*/
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  color: lightgray;
+}
+
+
+#main-head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#main-head div {
+  width: 33%;
+}
+
+#main-head #h1-left {
+  text-align: right;
+  font-size: 2.5em;
+}
+
+#main-head #h1-right {
+  text-align: left;
+  font-size: 2.5em;
+}
+
+#main-head img {
+  width: 150px;
+  height: 150px;
+}
+
+#down-arrow {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  align-self: center;
+}
+
+/*********************
+*** GALLERY STYLING **
+*********************/
+
+#gallery {
+  min-height: 100vh;
+}
+
+
