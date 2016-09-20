@@ -26,7 +26,7 @@ main {
 #main-landing {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  max-width: 299px;
 /*  background-color: lightgray;*/
   font-family: 'Julius Sans One', sans-serif;
   text-align: center;
@@ -36,27 +36,40 @@ main {
 
 #main-head {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 #main-head div {
-  width: 33%;
+  width: 50%;
 }
 
-#main-head #h1-left {
-  text-align: right;
+#main-head #first-name {
+  order: 1;
+  padding-left: 2px;
+}
+
+#main-head #first-name h1 {
+/*  text-align: right;*/
   font-size: 2.5em;
 }
 
-#main-head #h1-right {
-  text-align: left;
+#main-head #last-name {
+  order: 2;
+  padding-right: 2px;
+}
+
+#main-head #last-name h1{
+/*  text-align: left;*/
   font-size: 2.5em;
 }
 
 #main-head img {
   width: 150px;
   height: 150px;
+  order: 0;
+  margin: 0 auto;
 }
 
 #down-arrow {
@@ -68,12 +81,125 @@ main {
   align-self: center;
 }
 
+
+
 /*********************
-*** GALLERY STYLING **
+** PORTFOLIO STYLING *
 *********************/
 
-#gallery {
+#portfolio {
   min-height: 100vh;
+  background-color: darkgray;
+/*  background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+*/}
+
+#portfolio h2 {
+  text-align: center;
+  margin: 0;
+  padding: .83em 0;
+  color: #873D48;
+}
+
+#skills {
+  border-bottom: 2px solid darkslategray;
+  padding: 0 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #873D48;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#skills h3 {
+  padding: 0 5px;
 }
 
 
+
+/*********************
+*** FOOTER STYLING ***
+*********************/
+
+footer {
+  height: 300px;
+  background-color: darkblue;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 442px) {
+
+  #main-landing {
+    max-width: initial;
+    width: 450px;
+  }
+
+  #main-head #first-name,
+  #main-head #last-name,
+  #main-head img {
+    order: 0;
+  }
+
+  #main-head img {
+    margin: 0;
+  }
+
+  #main-head #first-name h1 {
+    text-align: right;
+    font-size: 2.5em;
+  }
+
+  #main-head #last-name h1{
+    text-align: left;
+    font-size: 2.5em;
+  }
+
+  #main-head div {
+    width: 33%;
+  }
+
+  #main-head {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+
+/** SETTINGS FOR MED AND LARGE SCREENS
+
+#main-head #first-name,
+#main-head #last-name,
+#main-head img {
+  order: 0;
+}
+
+#main-head img {
+  margin: 0;
+}
+
+#main-head #first-name h1 {
+  text-align: right;
+  font-size: 2.5em;
+}
+
+#main-head #last-name h1{
+  text-align: left;
+  font-size: 2.5em;
+}
+
+#main-head div {
+  width: 33%;
+}
+
+#main-head {
+  display: flex;
+  justify-content: space-around;
+
+
+
+
+**/
