@@ -72,59 +72,23 @@ main {
   margin: 0 auto;
 }
 
-#down-arrow {
-  width: 200px;
-  height: 50px;
-  margin: 0 auto;
-  position: absolute;
-  bottom: 0;
-  align-self: center;
-}
-
-
-
-/*********************
-** PORTFOLIO STYLING *
-*********************/
-
-#portfolio {
-  min-height: 100vh;
-  background-color: darkgray;
-/*  background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
-*/}
-
-#portfolio h2 {
-  text-align: center;
-  margin: 0;
-  padding: .83em 0;
-  color: #873D48;
-}
-
-#skills {
-  border-bottom: 2px solid darkslategray;
-  padding: 0 5px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  color: #873D48;
-  font-family: 'Open Sans', sans-serif;
-}
-
-#skills h3 {
-  padding: 0 5px;
-}
-
 
 
 /*********************
 *** FOOTER STYLING ***
 *********************/
 
-footer {
-  height: 300px;
-  background-color: darkblue;
+#contact {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
+#contact i {
+  color: lightgray;
+}
 
 
 
@@ -166,40 +130,10 @@ footer {
     display: flex;
     justify-content: space-around;
   }
+
+  #contact {
+    width: 70%;
+    max-width: 450px;
+    padding-bottom: 10px;
+  }
 }
-
-
-/** SETTINGS FOR MED AND LARGE SCREENS
-
-#main-head #first-name,
-#main-head #last-name,
-#main-head img {
-  order: 0;
-}
-
-#main-head img {
-  margin: 0;
-}
-
-#main-head #first-name h1 {
-  text-align: right;
-  font-size: 2.5em;
-}
-
-#main-head #last-name h1{
-  text-align: left;
-  font-size: 2.5em;
-}
-
-#main-head div {
-  width: 33%;
-}
-
-#main-head {
-  display: flex;
-  justify-content: space-around;
-
-
-
-
-**/
