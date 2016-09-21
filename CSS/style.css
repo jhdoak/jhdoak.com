@@ -19,7 +19,7 @@ main {
   justify-content: space-around;
   align-items: center;
   background-color: darkslategray;
-  background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
+  background-image: url("../images/black-paper.png");
   position: relative;
 }
 
@@ -33,6 +33,10 @@ main {
   color: lightgray;
 }
 
+#main-landing h2, #main-landing h3,
+#main-landing h4 {
+  margin: .5em 0;
+}
 
 #main-head {
   display: flex;
@@ -72,6 +76,14 @@ main {
   margin: 0 auto;
 }
 
+/* display:none; for fade in */
+
+#main-head div, #main-head img,
+#main-landing h2, #main-landing h3,
+#main-landing h4, #contact a {
+  display: none;
+}
+
 
 
 /*********************
@@ -82,12 +94,15 @@ main {
   position: absolute;
   bottom: 0;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 10px;
+/*  display: flex;
+  justify-content: space-around;*/
 }
 
 #contact i {
   color: lightgray;
+  width: 20%;
 }
 
 #contact i:hover {
@@ -138,6 +153,5 @@ main {
   #contact {
     width: 70%;
     max-width: 450px;
-    padding-bottom: 10px;
   }
 }
