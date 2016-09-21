@@ -90,6 +90,10 @@ main {
   color: lightgray;
 }
 
+#contact i:hover {
+  color: white;
+}
+
 
 
 
