@@ -7,6 +7,12 @@ html, body {
   margin: 0;
 }
 
+body {
+  background-color: darkslategray;
+  background-image: url("../images/black-paper.png");
+  height: 100vh;
+}
+
 
 /*********************
 **** MAIN STYLING ****
@@ -18,8 +24,8 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: darkslategray;
-  background-image: url("../images/black-paper.png");
+/*  background-color: darkslategray;
+  background-image: url("../images/black-paper.png");*/
   position: relative;
 }
 
@@ -120,6 +126,7 @@ main {
   color: darkgray;
   text-align: center;
   font-family: 'Julius Sans One', sans-serif;
+  font-weight: 400;
   font-size: .5em;
 }
 
