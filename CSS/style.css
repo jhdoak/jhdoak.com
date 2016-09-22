@@ -90,9 +90,13 @@ main {
 *** FOOTER STYLING ***
 *********************/
 
-#contact {
+#footer-basic {
   position: absolute;
-  bottom: 0;
+  bottom: 0; left: 0;
+  width: 100%;
+}
+
+#contact {
   width: 100%;
   text-align: center;
   padding-bottom: 10px;
@@ -110,6 +114,13 @@ main {
   color: white;
 }
 
+#copyright {
+  margin: 0;
+  color: darkgray;
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: .5em;
+}
 
 
 
@@ -153,6 +164,7 @@ main {
 
   #contact {
     width: 70%;
-    max-width: 450px;
+    margin: 0 auto;
+/*    max-width: 450px;*/
   }
 }
