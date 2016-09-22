@@ -9,8 +9,8 @@ var delayedFade = function(item, time) {
   $(item).fadeIn(time);
 };
 
-$( document ).ready( function() {
+$( document ).ready( setTimeout(function() {
   for(var i = 0; i<fadeElements.length; i++) {
     delayedFade(fadeElements[i], (i+2)*1000)
   };
-});
+}, 500));
