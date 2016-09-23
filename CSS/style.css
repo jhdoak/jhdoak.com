@@ -10,7 +10,7 @@ html, body {
 body {
   background-color: darkslategray;
   background-image: url("../images/black-paper.png");
-  height: 100vh;
+  height: 100%;
 }
 
 
@@ -19,7 +19,7 @@ body {
 *********************/
 
 main {
-  height: 100vh;
+  height: 100%;
 /*  background-color: lightgray;*/
   display: flex;
   justify-content: space-around;
