@@ -101,6 +101,7 @@ main {
   position: absolute;
   bottom: 0; left: 0;
   width: 100%;
+/*  margin: 0;*/
 }
 
 #contact {
@@ -129,6 +130,15 @@ main {
   font-weight: 400;
   font-size: .5em;
 }
+
+/*.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }*/
 
 
 
