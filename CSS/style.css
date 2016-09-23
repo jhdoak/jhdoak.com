@@ -27,6 +27,7 @@ main {
 /*  background-color: darkslategray;
   background-image: url("../images/black-paper.png");*/
   position: relative;
+  margin-top: 15vh;
 }
 
 #main-landing {
@@ -144,7 +145,7 @@ main {
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
 
   #main-landing {
     max-width: initial;
@@ -185,4 +186,54 @@ main {
     margin: 0 auto;
 /*    max-width: 450px;*/
   }
+}
+
+@media screen and (max-height: 440px) {
+
+  #main-head img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #main-landing h2, #main-landing h3,
+  #main-landing h4 {
+    margin: .3em 0;
+  }
+
+  #main-landing h2 {
+    font-size: 1.25em;
+  }
+
+  #main-landing h3 {
+    font-size: 1em;
+  }
+
+  #main-landing h4 {
+    font-size: .8em;
+  }
+
+}
+
+@media screen and (max-height: 525px) {
+
+  main {
+    margin-top: 10px;
+  }
+
+}
+
+@media screen and (min-height: 526px) and (max-height: 560px) {
+
+  main {
+    margin-top: 50px;
+  }
+
+}
+
+@media screen and (min-height: 668px) {
+
+  main {
+    margin-top: 25vh;
+  }
+
 }
