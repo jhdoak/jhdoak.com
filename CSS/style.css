@@ -188,32 +188,6 @@ main {
   }
 }
 
-@media screen and (max-height: 440px) {
-
-  #main-head img {
-    width: 100px;
-    height: 100px;
-  }
-
-  #main-landing h2, #main-landing h3,
-  #main-landing h4 {
-    margin: .3em 0;
-  }
-
-  #main-landing h2 {
-    font-size: 1.25em;
-  }
-
-  #main-landing h3 {
-    font-size: 1em;
-  }
-
-  #main-landing h4 {
-    font-size: .8em;
-  }
-
-}
-
 @media screen and (max-height: 525px) {
 
   main {
