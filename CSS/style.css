@@ -1,3 +1,7 @@
+/*********************
+** GENERAL STYLING ***
+*********************/
+
 * {
   box-sizing: border-box;
 /*  outline: 1px black solid;*/
@@ -14,18 +18,16 @@ body {
 }
 
 
+
 /*********************
 **** MAIN STYLING ****
 *********************/
 
 main {
   height: 100%;
-/*  background-color: lightgray;*/
   display: flex;
   justify-content: space-around;
   align-items: center;
-/*  background-color: darkslategray;
-  background-image: url("../images/black-paper.png");*/
   position: relative;
   margin-top: 15vh;
 }
@@ -34,7 +36,6 @@ main {
   display: flex;
   flex-direction: column;
   max-width: 299px;
-/*  background-color: lightgray;*/
   font-family: 'Julius Sans One', sans-serif;
   text-align: center;
   color: lightgray;
@@ -102,7 +103,6 @@ main {
   position: absolute;
   bottom: 0; left: 0;
   width: 100%;
-/*  margin: 0;*/
 }
 
 #contact {
@@ -111,12 +111,10 @@ main {
   padding-bottom: 10px;
   display: flex;
   justify-content: space-around;
-/*  margin: 0 auto;*/
 }
 
 #contact i {
   color: lightgray;
-/*  width: 20%;*/
 }
 
 #contact i:hover {
@@ -132,19 +130,13 @@ main {
   font-size: .5em;
 }
 
-/*.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  }*/
 
 
+/*********************
+*** MEDIA QUERIES ****
+*********************/
 
-
-
+/* Adjustments for screens 500px and up */
 @media screen and (min-width: 500px) {
 
   #main-landing {
@@ -184,12 +176,20 @@ main {
   #contact {
     width: 70%;
     margin: 0 auto;
-/*    max-width: 450px;*/
   }
 }
 
+
+/*
+  NEED QUERIES FOR HEIGHTS 430px AND LOWER
+  AND WIDTHS 280px AND LOWER
+*/
+
+
 @media screen and (max-height: 440px) {
+
 }
+
 
 @media screen and (max-height: 525px) {
 
